@@ -1,0 +1,39 @@
+#about {
+    display: flex;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .profile-pic img {
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  .bio {
+    margin-left: 20px;
+  }
+  
+  .bio h2 {
+    font-size: 32px;
+  }
+  
+  .bio p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .bio h3 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .bio ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .bio ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  

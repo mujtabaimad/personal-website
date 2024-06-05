@@ -1,0 +1,42 @@
+#portfolio {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  #portfolio h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .project {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .project img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .project h3 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .project p {
+    font-size: 16px;
+  }
+  
+  .project:hover {
+    transform: translateY(-10px);
+  }
+  
